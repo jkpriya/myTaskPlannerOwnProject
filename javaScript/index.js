@@ -87,17 +87,7 @@ function validFormFieldInput() {
         let id = -1
         if (taskid.value != undefined && taskid.value > -1)
             id = taskid.value;
-        // Pushing the data from form into the array task
-        taskManager.addTask(
-            taskTitle.value,
-            taskDetails.value,
-            taskAssign.value,
-            taskDueDate.value,
-            taskStatus.value,
-            id
-        );
-        //Resetting the form after saving the data
-        //btnSave.removeEventListener('click',() => form.reset());
+        taskManager.addTask(id, taskTitle.value, taskDetails.value,taskAssign.value,taskDueDate.value,taskStatus.value);
     }
     taskManager.render();
     form.reset();

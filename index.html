@@ -107,181 +107,37 @@
             <!-- Task Status Grid Start -->
             <section class="container tasks mtb-10" >
                 <h2>Tasks Lists</h2>
-                <hr>
-                <!--Row Start -->
-                <div class="row" id="tasks">
-                    <!-- todolist Start -->
-                    <div class="col todo">                   
-                        <h3 class>To-do</h3>
-                        <!-- Card1 -->
-                        <div id="draggable-handle" class="card mt-2  " >                     
-                            <!-- Card content -->
-                            <div class="card-body" >
-                                <!-- Title -->
-                                    <h4 class="card-title"><a>Add JavaScript</a></h4>
-                                    <!-- Text -->
-                                    <div class="card-text taskDescription">
-                                        <label for="cardLabelDescription">Task Description: </label>
-                                        <p class="cardDescriptionValue">To do actions using JavaScript
-                                       </p>
-                                    </div>
-                                    <div class="card-text assignto">
-                                        <label for="cardLabelAssign">Assign To: </label>
-                                        <p class="cardAssignedToValue"> Priya and amrutha</p>
-                                    </div>
-                                    <div class="card-text duedate">
-                                        <label for="cardLabelDueDate">DueDate: </label>
-                                        <p class="cardDueDateValue"> 12-11-2021</p>
-                                    </div>
-                                    <div class="card-text status">
-                                        <label for="cardLabelStatus">Status: </label>
-                                        <p id="todo"class="cardStatusValue">To Do</p>
-                                    </div>
-                                    <!-- Button -->
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-primary">Edit</a>
-                                    <a href="#" class="btn btn-primary ">Delete</a>
-                            </div>                              
-                        </div> 
-                        <!-- Card 2 -->
-                        <div id="draggable-handle" class="card mt-2" >                   
-                            <!-- Card content -->
-                            <div class="card-body">
-                                <!-- Title -->
-                                    <h4 class="card-title"><a>Presentation of final project</a></h4>
-                                    <!-- Text -->
-                                    <div class="card-text taskDescription">
-                                        <label for="cardLabelDescription">Task Description: </label>
-                                        <p class="cardDescriptionValue">Presenting the website
-                                       </p>
-                                    </div>
-                                    <div class="card-text assignto">
-                                        <label for="cardLabelAssign">Assign To: </label>
-                                        <p class="cardAssignedToValue"> Priya and amrutha</p>
-                                    </div>
-                                    <div class="card-text duedate">
-                                        <label for="cardLabelDueDate">DueDate: </label>
-                                        <p class="cardDueDateValue"> 14-10-2021</p>
-                                    </div>
-                                    <div class="card-text status">
-                                        <label for="cardLabelStatus">Status: </label>
-                                        <p id="todo" class="cardStatusValue">To Do</p>
-                                    </div>
-                                    
-                                    <!-- Button -->
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-primary">Edit</a>
-                                    <a href="#" class="btn btn-primary ">Delete</a>
-                            </div>
-                        </div>                    
-                    </div>
-                    <!-- Todo End -->
-                    <!-- In progress Start -->
-                    <div class="col inProgress">    
-                        <h3>In Progress</h3>              
-                        <!-- Card -->
-                        <div id="draggable-handle" class="card mt-2" >                    
-                            <!-- Card content -->
-                            <div class="card-body">
-                                <!-- Title -->
-                                    <h4 class="card-title"><a>Add CSS</a></h4>
-                                    <!-- Text -->
-                                    <div class="card-text taskDescription">
-                                        <label for="cardLabelDescription">Task Description: </label>
-                                        <p class="cardDescriptionValue">Adding style to the web page
-                                       </p>
-                                    </div>
-                                    <div class="card-text assignto">
-                                        <label for="cardLabelAssign">Assign To: </label>
-                                        <p class="cardAssignedToValue"> Priya and amrutha</p>
-                                    </div>
-                                    <div class="card-text duedate">
-                                        <label for="cardLabelDueDate">DueDate: </label>
-                                        <p class="cardDueDateValue"> 31-08-2021</p>
-                                    </div>
-                                    <div class="card-text status">
-                                        <label for="cardLabelStatus">Status: </label>
-                                        <p id = "inProgress" class="cardStatusValue">In Progress</p>
-                                    </div>
-                                    
-                                    <!-- Button -->
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-primary">Edit</a>
-                                    <a href="#" class="btn btn-primary ">Delete</a>
-                            </div>                              
-                        </div> 
-                    </div>
-                    <!-- In Progress End -->
-                    <!-- Review Start -->
-                    <div class="col review"> 
-                        <h3>Review</h3>                 
-                        <!-- Card -->
-                        <div id="draggable-handle" class="card mt-2" >                  
-                            <!-- Card content -->
-                            <div class="card-body">
-                                <!-- Title -->
-                                    <h4 class="card-title"><a>Review HTML</a></h4>
-                                    <!-- Text -->
-                                    <div class="card-text taskDescription">
-                                        <label for="cardLabelDescription">Task Description: </label>
-                                        <p class="cardDescriptionValue">Review by Lisa
-                                       </p>
-                                    </div>
-                                    <div class="card-text assignto">
-                                        <label for="cardLabelAssign">Assign To: </label>
-                                        <p class="cardAssignedToValue">Lisa</p>
-                                    </div>
-                                    <div class="card-text duedate">
-                                        <label for="cardLabelDueDate">DueDate: </label>
-                                        <p class="cardDueDateValue">01-09-2021</p>
-                                    </div>
-                                    <div class="card-text status">
-                                        <label for="cardLabelStatus">Status: </label>
-                                        <p id ="review" class="cardStatusValue">Review</p>
-                                    </div>
-                                    
-                                    <!-- Button -->
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-primary">Edit</a>
-                                    <a href="#" class="btn btn-primary ">Delete</a>
-                            </div>                              
-                        </div>                    
-                    </div>
-                    <!-- Review End -->
-                    <!-- Done Start -->
-                    <div class="col done"> 
-                        <h3>Done</h3>                  
-                        <!-- Card -->
-                        <div id="draggable-handle" class="card mt-2" >
-                                                
-                            <!-- Card content -->
-                            <div class="card-body">
-                                <!-- Title -->
-                                    <h4 class="card-title"><a>Create Wireframe</a></h4>
-                                    <!-- Text -->
-                                    <div class="card-text taskDescription">
-                                        <label for="cardLabelDescription">Task Description: </label>
-                                        <p class="cardDescriptionValue">Designing a web page
-                                       </p>
-                                    </div>
-                                    <div class="card-text assignto">
-                                        <label for="cardLabelAssign">Assign To: </label>
-                                        <p class="cardAssignedToValue"> Priya and amrutha</p>
-                                    </div>
-                                    <div class="card-text duedate">
-                                        <label for="cardLabelDueDate">DueDate: </label>
-                                        <p class="cardDueDateValue"> 30-08-2021</p>
-                                    </div>
-                                    <div class="card-text status">
-                                        <label for="cardLabelStatus">Status: </label>
-                                        <p id ="done" class="cardStatusValue">Done</p>
-                                    </div>
-                                    
-                                    <!-- Button -->
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-primary">Edit</a>
-                                    <a href="#" class="btn btn-primary ">Delete</a>
-                            </div>                              
-                        </div>                    
-                    </div>
-                    <!-- Done End -->
-                </div>
-                <!-- Row End -->
+                <table class="table" id="tasks-table" >
+                    <thead>
+                        <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Details</th>
+                        <th scope="col">Assigned To</th>
+                        <th scope="col">Due Date</th>
+                        <th scope="col"> 
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Status
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                    <li><a class="dropdown-item" data-status="all" onclick="taskManager.render()" href="#">All</a></li>
+                                  <li><a class="dropdown-item" data-status="todo" onclick="filterTasks(this)" href="#">To Do</a></li>
+                                  <li><a class="dropdown-item" data-status="inProgress" onclick="filterTasks(this)" href="#">In Progress</a></li>
+                                  <li><a class="dropdown-item" data-status="review" onclick="filterTasks(this)" href="#">Review</a></li>
+                                  <li><a class="dropdown-item" data-status="done" onclick="filterTasks(this)" href="#">Done</a></li>
+                                </ul>
+                              </div>
+                        </th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tasks-table-body">
+
+                    </tbody>
+                </table>
+
             </section>
             <!-- Task Status Grid End -->            
            <!-- Back to Top Link -->
