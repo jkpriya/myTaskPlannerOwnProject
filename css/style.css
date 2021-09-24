@@ -1,0 +1,131 @@
+/* Body CSS */
+body{
+    background-color: rgb(255, 251, 251) !important;
+}
+.navbar{
+    background-color: rgb(161, 157, 157) !important;
+}
+.navbar-brand{
+    font-family: Cursive, Times, serif;
+    color: rgb(39, 139, 126) !important;
+    font-weight: bold;
+}
+
+/* Header CSS */
+header{ 
+    color: rgb(39, 139, 126);
+    font-size: 2.5em !important;
+    font-family: Cursive, Times, serif;
+    
+    font-weight: bold !important;
+}
+/* Modal CSS */
+#modalAddTaskButton{
+    font-size: 22px;
+    color:rgb(243, 247, 246) !important;
+    font-weight: bold;
+}
+#addTaskButton{
+    border-radius: 10%;
+}
+.modal-content{
+    background-color: rgb(252, 249, 249);
+}
+.modal-header,.modal-footer{
+    background-color: rgb(187, 184, 184);
+}
+.modal-title {
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: left;
+    text-align: left; 
+    font-family: Cursive, Times, serif;
+    color: rgb(55, 126, 116) !important;
+    }
+
+/* Form CSS */
+form{
+   justify-content: center;
+   align-content: center;
+   
+}
+.form-group{
+    margin-top: 5px;
+}
+label{
+   font-size: 1.2em;
+   align-content: left; 
+    
+}
+.addtaskmain{
+   background-color: rgb(184, 185, 179);
+}
+.details{
+   overflow: auto;
+}
+button{
+   background-color: rgb(62, 115, 124) !important;
+   color:white !important
+   
+}
+.reset{
+    margin-left: 10px;;
+}
+button a,.card-body a{
+   display: inline-block;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+}
+button a:hover{
+   text-decoration: none; 
+   color: rgb(19, 18, 18);
+}
+
+/* Task Lists CSS */
+h2{
+    text-align: center;
+    color: rgb(55, 126, 116);
+    font-weight: bold;
+}
+h3{
+    color: rgb(55, 126, 116);
+    font-weight: bold;
+}
+.card-body .btn{
+    background-color:rgb(55, 126, 116);
+}
+/* #draggable-handle{
+    width: 15rem;
+    height:20rem;
+} */
+
+#todo{
+    color: rgb(133, 198, 236) !important ;
+    
+}
+#inProgress{
+    color:rgb(235, 139, 13);
+}
+#review{
+    color:rgb(235, 46, 13);
+}
+#done{
+    color:rgb(68, 241, 68);
+}
+/* Back to top link CSS */
+.linktotop{
+    text-align: right;
+    font-size: 22px;
+}
+
+/* footer CSS */
+footer {
+    display: block;
+    color: #012980;
+    text-align: center;
+    bottom: -44px;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
