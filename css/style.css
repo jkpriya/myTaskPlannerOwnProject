@@ -129,3 +129,6 @@ footer {
     height: 40px;
     font-size: 20px;
 }
+#taskId {
+    display: none;
+}
